@@ -1,0 +1,26 @@
+body{
+  background: black;
+}
+
+
+#boy{
+  position: relative;
+  display: inline;
+  cursor: pointer;
+
+}
+
+#cat{
+  position: relative;
+  display: inline;
+  bottom: 220px;
+  left: 800px;
+
+}
+
+#speech{
+  position: absolute;
+  display: inline;
+  bottom: 220px;
+  left: 450px;
+}

@@ -1,0 +1,15 @@
+#boy{
+  top:280px;
+}
+
+#ghost{
+  position: relative;
+  display: inline;
+  bottom: 0px;
+  left: 800px;
+}
+
+#bigpic{
+  margin-left: 700px;
+  margin-bottom: 300px;
+}

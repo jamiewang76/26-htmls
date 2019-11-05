@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles12.css">
+    <title></title>
+    <style>
+    #boy {
+      position: relative;
+      cursor: pointer;
+    }
+  </style>
+  </head>
+  <body bgcolor="#4c4649">
+          <img id="boy" src="intro1/boy_and_flashlight.png" width="33%" height="33%">
+    <img id="speech" onclick="speech()" src="intro1/comecloser.png" width="33%" height="33%">
+
+    <div><img id="oldman" src="intro1/oldman.png" width="10%" height="500px"></div>
+
+    <!-- < img id="bigpic" onclick="changeindex7()" src="intro1/buttondone.png" style="display:none;"> -->
+   <script>
+
+     var counter="0";
+     speech.onclick=function(){
+       if(counter=="0"){
+        document.getElementById("speech").src="intro1/help.png";
+       document.getElementById("speech").style.width="600px";
+       document.getElementById("speech").style.height="300px";
+       counter="1";
+     }
+       else if(counter=="1"){
+         let answer=prompt("Approah the ghost? (Approach/Escape)");
+         if(answer=="Approach"){
+           let start = Date.now();
+
+           let timer = setInterval(function() {
+             let timePassed = Date.now() - start;
+
+             boy.style.left = timePassed / 5 + 'px';
+
+             if (timePassed > 2000) clearInterval(timer);
+
+           }, 20);
+           document.getElementById("speech").src="intro1/speechbubble.png";
+           document.getElementById("speech").style.width="50px";
+           document.getElementById("speech").style.height="38px";
+           counter="2";
+       }
+       else if(answer=="Escape"){
+         document.location.href="index14.html"
+       }
+     }
+
+       else if(counter=="2"){
+         document.getElementById("speech").src="intro1/listening.png";
+        document.getElementById("speech").style.width="550px";
+        document.getElementById("speech").style.height="300px";
+        counter="3";
+       }
+       else if(counter=="3"){
+         document.getElementById("speech").src="intro1/reunite.png";
+        document.getElementById("speech").style.width="550px";
+        document.getElementById("speech").style.height="300px";
+        counter="4";
+       }
+       else if(counter=="4"){
+         document.location.href="index8.html";
+       }
+
+     }
+     // bigpic.onclick=function(){
+     //       document.location.href="index7.html";
+     // }
+   </script>
+
+  </body>
+</html>

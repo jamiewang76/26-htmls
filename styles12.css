@@ -1,0 +1,25 @@
+#boy{
+  position: absolute;
+  display: inline;
+  bottom:-180px;
+
+}
+
+#oldman{
+  position: absolute;
+  display: inline;
+  bottom: 220px;
+  left: 800px;
+
+}
+#bigpic{
+  margin-left: 900px;
+  margin-bottom: 300px;
+}
+
+#speech{
+  position: absolute;
+  display: inline;
+  bottom: 220px;
+  left: 250px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles7.css">
+    <title></title>
+    <style>
+    #boy {
+      position: relative;
+      cursor: pointer;
+    }
+  </style>
+  </head>
+  <body bgcolor="5f5b5d">
+    <img id="river" src="intro1/river.png" width="53%" height="103%">
+    <img id="speech2" onclick="speech2()" src="intro1/Alice.png" width="33%" height="33%" style="display:none;">
+    <img id="speech" onclick="speech()" src="intro1/alex.png" width="33%" height="33%">
+    <img id="boy" src="intro1/boyandcat.png" width="33%" height="33%">
+    <div><img id="friend" src="intro1/friend.png" width="7%" height="7%"></div>
+
+    <!-- < img id="bigpic" onclick="speechbubble()" src="intro1/buttondone.png" style="display:none;"> -->
+   <script>
+
+     var counter="0";
+     speech.onclick=function(){
+       if(counter=="0"){
+         let start = Date.now();
+
+         let timer = setInterval(function() {
+           let timePassed = Date.now() - start;
+
+           boy.style.right = timePassed / 5 + 'px';
+
+           if (timePassed > 200) clearInterval(timer);
+
+         }, 20);
+       counter="1";
+     }
+       else if(counter=="1"){
+           document.getElementById('speech2').style.display='block';
+           document.getElementById("speech2").style.width="500px";
+           document.getElementById("speech2").style.height="300px";
+
+           counter="2";
+       }
+
+
+       else if(counter=="2"){
+         document.getElementById("speech").src="intro1/favor.png";
+        document.getElementById("speech").style.width="550px";
+        document.getElementById("speech").style.height="300px";
+        counter="3";
+       }
+       else if(counter=="3"){
+         document.getElementById("speech2").src="intro1/dots.png";
+        document.getElementById("speech2").style.width="580px";
+        document.getElementById("speech2").style.height="300px";
+        counter="4";
+       }
+       else if(counter=="4"){
+         document.location.href="index9(3).html";
+       }
+
+     }
+     // bigpic.onclick=function(){
+     //       document.location.href="index7.html";
+     // }
+   </script>
+
+  </body>
+</html>

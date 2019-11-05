@@ -1,0 +1,37 @@
+#boy{
+  top:280px;
+
+}
+
+#bigpic{
+  margin-left: 900px;
+  margin-bottom: 300px;
+}
+
+
+#friend{
+  position: relative;
+  display: inline;
+  bottom: 200px;
+  left: 750px;
+}
+
+#speech{
+  position: absolute;
+  display: inline;
+  margin-top: 50px;
+  left:600px;
+}
+
+#speech2{
+  position: absolute;
+  display: inline;
+  top: 17px;
+  left:900px;
+}
+
+#river{
+  position: absolute;
+  left:200px;
+
+}

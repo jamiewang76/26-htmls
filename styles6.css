@@ -1,0 +1,25 @@
+#boy{
+  top:280px;
+}
+
+#ghost{
+  position: relative;
+  display: inline;
+  bottom: 220px;
+  left: 800px;
+
+}
+#bigpic{
+  position: relative;
+  display: inline;
+  bottom: 220px;
+  left: 1000px;
+
+}
+
+#speech{
+  position: relative;
+  display: inline;
+  bottom: 220px;
+  left: 250px;
+}

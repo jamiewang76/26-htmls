@@ -1,0 +1,25 @@
+#boy{
+  position: absolute;
+  display: inline;
+  top:280px;
+  width:200px;
+  height:220px;
+  left:710px;
+}
+
+#beam{
+  position: absolute;
+  display: inline;
+  bottom: 180px;
+  left: 550px;
+  width:500px;
+  height:900px;
+
+}
+#speech{
+  position: absolute;
+  display: inline;
+  bottom: 410px;
+  left: 650px;
+
+}

@@ -1,0 +1,45 @@
+
+
+body{
+  background: #000000;
+}
+
+.ploatjeClass{
+
+  width: 100vw;
+  height: 100vh;
+  /* background: url(intro1/intropic.jpg); */
+
+}
+.ploatjeClass img{
+  position:absolute;
+
+  max-width: 100vw;
+  max-height: 100vh;
+
+}
+
+#buttondone{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+
+#log{
+  color:#ffffff;
+  position:absolute;
+  opacity:0;
+}
+
+#logDetails{
+  color:#ffffff;
+  position:absolute;
+  opacity:0;
+}
+
+#namebutton{
+  position: fixed;
+  bottom: 430px;
+  right:900px;
+
+}

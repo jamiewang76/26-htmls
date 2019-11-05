@@ -1,0 +1,33 @@
+#boy2{
+  position: absolute;
+  display: inline;
+  top:220px;
+
+}
+
+body{
+  background: gray;
+}
+
+#cat2{
+  position: absolute;
+    display: inline;
+  bottom:320px;
+  left: 400px;
+
+}
+
+#speech{
+  position: absolute;
+  display: inline;
+  bottom: 620px;
+  left: 550px;
+}
+
+#bigpic{
+  position: absolute;
+  bottom: 80px;
+  left: 250px;
+
+
+}

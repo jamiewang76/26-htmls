@@ -1,0 +1,26 @@
+#boy{
+  position: absolute;
+  display: inline;
+  top:280px;
+
+}
+
+#bigpic{
+  margin-left: 900px;
+  margin-bottom: 300px;
+}
+
+#speech{
+  position: absolute;
+  display: inline;
+  bottom: 520px;
+  left: 750px;
+}
+
+#berries{
+  position: absolute;
+  display: inline;
+  bottom: 360px;
+  left: 700px;
+
+}

@@ -1,0 +1,63 @@
+#spark1{
+  position: relative;
+  display: inline;
+  bottom: -150px;
+  left: 250px;
+}
+
+#spark2{
+  position: relative;
+  display: inline;
+  bottom: -60px;
+  left: 650px;
+
+}
+#spark3{
+  position: relative;
+  display: inline;
+  bottom: 500px;
+  left: 900px;
+
+}
+#spark4{
+  position: relative;
+  display: inline;
+  bottom: 900px;
+  left: 600px;
+
+}
+#spark5{
+  position: relative;
+  display: inline;
+  bottom: 700px;
+  left: 150px;
+
+}
+
+
+
+#boy{
+  position: relative;
+  display: inline;
+  top:250px;
+}
+
+#bigpic{
+  margin-left: 900px;
+  margin-bottom: 300px;
+}
+
+#speech{
+  position: relative;
+  display: inline;
+  bottom: -100px;
+  left: 250px;
+}
+
+#candle{
+  position: relative;
+  display: inline;
+  bottom: -50px;
+  left: 650px;
+
+}

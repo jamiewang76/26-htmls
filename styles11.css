@@ -1,0 +1,14 @@
+#boy{
+  top:280px;
+}
+
+#oldman{
+  position: relative;
+  display: inline;
+  bottom: 20px;
+  left: 800px;
+}
+#bigpic{
+  margin-left: 900px;
+  margin-bottom: 300px;
+}
